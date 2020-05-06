@@ -3,7 +3,7 @@ body {
 }
 
 a{
-    text-decoration:none;
+    text-decoration: none;
 }
 
 h1 {
@@ -35,21 +35,21 @@ h4 {
   position: relative;
   top: 200px;
   left: 640px;
-  text-align: center;
+  text-decoration: none;
 }
 
 #linkedin {
   position: relative;
   top: 195px;
   left: 652px;
-  text-align: center;
+  text-decoration: none;
 }
 
 #email {
   position: relative;
   top: 205px;
   left: 660px;
-  text-align: center;
+  text-decoration: none;
 }
 
 .fade-in {

@@ -1,0 +1,38 @@
+body {
+  background-color: #001133;
+}
+
+h1 {
+  position: relative;
+  color: #e3b07b;
+  top: 200px;
+  text-align: center;
+}
+
+h3 {
+  position: relative;
+  color: #e3b07b;
+  top: 200px;
+  text-align: center;
+}
+
+h4 {
+  position: relative;
+  color: #e3b07b;
+  top: 200px;
+  text-align: center;
+}
+
+#github {
+  position: relative;
+  top: 200px;
+  left: 500px;
+  text-align: center;
+}
+
+#linkedin {
+  position: relative;
+  top: 200px;
+  left: 503px;
+  text-align: center;
+}

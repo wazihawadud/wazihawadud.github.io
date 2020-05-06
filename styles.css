@@ -2,6 +2,10 @@ body {
   background-color: #001133;
 }
 
+a{
+    text-decoration:none;
+}
+
 h1 {
   position: relative;
   color: #e3b07b;
@@ -16,6 +20,10 @@ h3 {
   text-align: center;
 }
 
+.key{
+  color: #e65c6c;
+}
+
 h4 {
   position: relative;
   color: #e3b07b;
@@ -26,13 +34,71 @@ h4 {
 #github {
   position: relative;
   top: 200px;
-  left: 500px;
+  left: 640px;
   text-align: center;
 }
 
 #linkedin {
   position: relative;
-  top: 200px;
-  left: 503px;
+  top: 195px;
+  left: 652px;
   text-align: center;
+}
+
+#email {
+  position: relative;
+  top: 205px;
+  left: 660px;
+  text-align: center;
+}
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
 }
